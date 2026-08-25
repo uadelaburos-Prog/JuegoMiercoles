@@ -1,0 +1,56 @@
+using UnityEngine;
+
+public class Axe : MonoBehaviour, IWeapon
+{
+    [SerializeField] private float fireRate = 0.8f;
+    [SerializeField] private float damage = 25f;
+    [SerializeField] private float range = 2f;
+    [SerializeField] private LayerMask hitMask;
+    private Transform playerTransform;
+    private float nextFireTime = 0f;
+
+    public void SetOwner(Transform owner) => playerTransform = owner;
+
+    public Weapons Type => Weapons.Melee;
+
+    public bool CanShoot() => Time.time >= nextFireTime;
+
+    public void CoolDown()
+    {
+        nextFireTime = Time.time + fireRate;
+    }
+
+    public void DoDamage(RaycastHit2D hit)
+    {
+        Debug.Log($"Daño a {hit.collider.name} por {damage} de daño");
+    }
+
+    public void Shoot()
+    {
+        CoolDown();
+        Vector2 mouseWPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 direction = (mouseWPos - (Vector2)playerTransform.position).normalized;
+
+        RaycastHit2D hit = Physics2D.Raycast(playerTransform.position, direction, range, hitMask);
+        if (hit.collider != null)
+            DoDamage(hit);
+    }
+
+    private void OnDrawGizmos()
+    {
+        if (playerTransform == null) return;
+
+        Vector2 origin = playerTransform.position;
+        Vector2 mouseWPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 direction = (mouseWPos - origin).normalized;
+
+        RaycastHit2D hit = Physics2D.Raycast(origin, direction, range, hitMask);
+
+        Gizmos.color = hit.collider != null ? Color.green : Color.red;
+        Vector2 endPoint = hit.collider != null ? hit.point : origin + direction * range;
+        Gizmos.DrawLine(origin, endPoint);
+
+        if (hit.collider != null)
+            Gizmos.DrawWireSphere(hit.point, 0.1f);
+    }
+}
