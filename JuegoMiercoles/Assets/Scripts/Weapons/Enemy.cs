@@ -5,43 +5,51 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] public string id;
     [SerializeField] private float speed;
-    //[SerializeField] private float dmg;
-    [SerializeField]private Transform playerTrm;
+    [SerializeField] private Transform playerTrm;
     [SerializeField] private Rigidbody2D rb;
-
     [SerializeField] private string[] names;
+
+    private static readonly Collider2D[] hitBuffer = new Collider2D[16];
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
-    //private void Update()
-    //{
-    //    transform.position = Vector2.MoveTowards(transform.position, playerTrm.transform.position, speed * Time.deltaTime);
-    //}
 
+    [System.Obsolete]
     private void FixedUpdate()
     {
-        Collider2D[] collider = Physics2D.OverlapCircleAll(transform.position, 0.5f);
-        Vector2 gofuckAway = Vector2.zero;
+        if (playerTrm == null || rb == null) return;
 
-        for (int i = 0; i < collider.Length; i++)
-        {
-            names.AddRange(collider[i].name.Split(new char[] { ' ' }));
-        }   
+        Vector2 separation = Vector2.zero;
+        int count = Physics2D.OverlapCircleNonAlloc(transform.position, 0.5f, hitBuffer);
 
-        foreach(Collider2D hitcollider in collider)
+        for (int i = 0; i < count; i++)
         {
-            if (hitcollider.CompareTag("Enemy") && hitcollider.gameObject != gameObject)
-            {
-                Vector2 push = (transform.position - hitcollider.transform.position);
-                gofuckAway += push.normalized / push.magnitude;
-            }
+            Collider2D hitcollider = hitBuffer[i];
+            if (hitcollider.gameObject == gameObject) continue;
+            if (!MatchesAnyTag(hitcollider)) continue;
+
+            Vector2 push = (Vector2)transform.position - (Vector2)hitcollider.transform.position;
+            float dist = push.magnitude;
+
+            if (dist > 0.0001f)
+                separation += push / (dist * dist); // equivalente a push.normalized / dist, sin normalizar dos veces
         }
 
-        Vector2 player = (playerTrm.transform.position - transform.position).normalized;
-        Vector2 finalDir = (player + gofuckAway * 0.5f).normalized;
+        Vector2 toPlayer = ((Vector2)playerTrm.position - rb.position).normalized;
+        Vector2 finalDir = (toPlayer + separation * 0.5f).normalized;
 
         rb.MovePosition(rb.position + finalDir * speed * Time.fixedDeltaTime);
+    }
+
+    private bool MatchesAnyTag(Collider2D col)
+    {
+        for (int i = 0; i < names.Length; i++)
+        {
+            if (col.CompareTag(names[i]))
+                return true;
+        }
+        return false;
     }
 }

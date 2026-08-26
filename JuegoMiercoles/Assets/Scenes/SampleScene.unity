@@ -305,10 +305,10 @@ MonoBehaviour:
   id: Wea3
   speed: 5
   playerTrm: {fileID: 255536638}
-  enemys:
-  - Enemy1
+  rb: {fileID: 0}
+  names:
   - Enemy2
-  - Enemy3
+  - Enemy1
   - Enemy4
 --- !u!1 &255536636
 GameObject:
@@ -661,9 +661,9 @@ MonoBehaviour:
   id: Wea2
   speed: 5
   playerTrm: {fileID: 255536638}
-  enemys:
+  rb: {fileID: 0}
+  names:
   - Enemy1
-  - Enemy2
   - Enemy3
   - Enemy4
 --- !u!1 &354833870
@@ -1348,8 +1348,8 @@ MonoBehaviour:
   id: Wea1
   speed: 5
   playerTrm: {fileID: 255536638}
-  enemys:
-  - Enemy1
+  rb: {fileID: 0}
+  names:
   - Enemy2
   - Enemy3
   - Enemy4
@@ -1539,11 +1539,11 @@ MonoBehaviour:
   id: Wea4
   speed: 5
   playerTrm: {fileID: 255536638}
-  enemys:
-  - Enemy1
+  rb: {fileID: 0}
+  names:
   - Enemy2
   - Enemy3
-  - Enemy4
+  - Enemy1
 --- !u!1 &1213676532
 GameObject:
   m_ObjectHideFlags: 0
