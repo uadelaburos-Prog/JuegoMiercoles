@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 106620578}
   - component: {fileID: 106620581}
   - component: {fileID: 106620582}
+  - component: {fileID: 106620583}
   m_Layer: 7
   m_Name: Enemy3
   m_TagString: Enemy3
@@ -206,7 +207,7 @@ Transform:
   m_GameObject: {fileID: 106620577}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.59149, y: 2.04, z: 0}
+  m_LocalPosition: {x: 7.0300007, y: 2.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -220,7 +221,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106620577}
-  m_BodyType: 2
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -237,7 +238,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!60 &106620582
 PolygonCollider2D:
@@ -289,6 +290,26 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 1
+--- !u!114 &106620583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106620577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56fd62dbbd1c64145b13f567303977aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  id: Wea3
+  speed: 5
+  playerTrm: {fileID: 255536638}
+  enemys:
+  - Enemy1
+  - Enemy2
+  - Enemy3
+  - Enemy4
 --- !u!1 &255536636
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,6 +487,7 @@ GameObject:
   - component: {fileID: 303752862}
   - component: {fileID: 303752865}
   - component: {fileID: 303752866}
+  - component: {fileID: 303752867}
   m_Layer: 6
   m_Name: Enemy2
   m_TagString: Enemy2
@@ -541,7 +563,7 @@ Transform:
   m_GameObject: {fileID: 303752861}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.43, y: 1.91, z: 0}
+  m_LocalPosition: {x: 11.19149, y: 1.91, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -555,7 +577,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303752861}
-  m_BodyType: 2
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -572,7 +594,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!60 &303752866
 PolygonCollider2D:
@@ -624,6 +646,26 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 1
+--- !u!114 &303752867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303752861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56fd62dbbd1c64145b13f567303977aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  id: Wea2
+  speed: 5
+  playerTrm: {fileID: 255536638}
+  enemys:
+  - Enemy1
+  - Enemy2
+  - Enemy3
+  - Enemy4
 --- !u!1 &354833870
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,6 +1174,7 @@ GameObject:
   - component: {fileID: 813295780}
   - component: {fileID: 813295783}
   - component: {fileID: 813295784}
+  - component: {fileID: 813295785}
   m_Layer: 3
   m_Name: Enemy1
   m_TagString: Enemy1
@@ -1207,7 +1250,7 @@ Transform:
   m_GameObject: {fileID: 813295779}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.59149, y: -1.25233, z: 0}
+  m_LocalPosition: {x: 7.03, y: -1.25233, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1221,7 +1264,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 813295779}
-  m_BodyType: 2
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1238,7 +1281,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!60 &813295784
 PolygonCollider2D:
@@ -1290,6 +1333,26 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 1
+--- !u!114 &813295785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813295779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56fd62dbbd1c64145b13f567303977aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  id: Wea1
+  speed: 5
+  playerTrm: {fileID: 255536638}
+  enemys:
+  - Enemy1
+  - Enemy2
+  - Enemy3
+  - Enemy4
 --- !u!1 &1185408024
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,6 +1365,7 @@ GameObject:
   - component: {fileID: 1185408025}
   - component: {fileID: 1185408028}
   - component: {fileID: 1185408029}
+  - component: {fileID: 1185408030}
   m_Layer: 8
   m_Name: Enemy4
   m_TagString: Enemy4
@@ -1377,7 +1441,7 @@ Transform:
   m_GameObject: {fileID: 1185408024}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.35, y: -1.25233, z: 0}
+  m_LocalPosition: {x: 11.27149, y: -1.25233, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1391,7 +1455,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185408024}
-  m_BodyType: 2
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1408,7 +1472,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!60 &1185408029
 PolygonCollider2D:
@@ -1460,6 +1524,26 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 1
+--- !u!114 &1185408030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185408024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56fd62dbbd1c64145b13f567303977aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  id: Wea4
+  speed: 5
+  playerTrm: {fileID: 255536638}
+  enemys:
+  - Enemy1
+  - Enemy2
+  - Enemy3
+  - Enemy4
 --- !u!1 &1213676532
 GameObject:
   m_ObjectHideFlags: 0
