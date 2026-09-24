@@ -6,7 +6,7 @@ public enum Weapons
 }
 public class PlayerWeapons : MonoBehaviour
 {
-    [SerializeField] private MonoBehaviour[] weaponBehaviours; // arrastrás Axe, Pistol, etc.
+    [SerializeField] private MonoBehaviour[] weaponBehaviours; 
 
     private IWeapon[] weapons;
     private IWeapon currentWeapon;
