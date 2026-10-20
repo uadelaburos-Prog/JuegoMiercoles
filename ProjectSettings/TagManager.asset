@@ -3,17 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Enemy1
+  - Enemy2
+  - Enemy3
+  - Enemy4
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy1
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Enemy2
+  - Enemy3
+  - Enemy4
   - 
   - 
   - 
@@ -43,4 +47,3 @@ TagManager:
     locked: 0
   m_RenderingLayers:
   - Default
-  m_MigratedRenderPipelines: []

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dbec9d5034f58344976cc33b1c0287f, type: 3}
+  m_Name: Insecticida
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  displayName: Insecticida
+  damageType: 0
+  damage: 4
+  speed: 3
+  range: 2.5
+  cooldown: 2
+  maxAmmo: 6
+  recoil: 0
+  fireBehaviour: {fileID: 11400000, guid: c224b1b4e81137a4192099cd96e77359, type: 2}
+  projectilePrefab: {fileID: 6849758795805949577, guid: 81ee13d4ff50c7f45a3738d6633633fb, type: 3}
+  color: {r: 0, g: 1, b: 0.19758415, a: 1}

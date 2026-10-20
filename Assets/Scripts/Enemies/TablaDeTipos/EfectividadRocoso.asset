@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ad8724b434e3db4198bd239f75517eb, type: 3}
+  m_Name: EfectividadRocoso
+  m_EditorClassIdentifier: Assembly-CSharp::EffectivenessTable
+  defaultResult: 1
+  entries:
+  - damage: 0
+    category: 2
+    result: 3
+  - damage: 1
+    category: 2
+    result: 3
+  - damage: 4
+    category: 2
+    result: 3
+  - damage: 2
+    category: 2
+    result: 2
+  - damage: 3
+    category: 2
+    result: 0
