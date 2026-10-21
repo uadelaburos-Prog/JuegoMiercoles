@@ -1,12 +1,12 @@
 using UnityEngine;
 
 // IA minima: perseguir al jugador. Sirve para probar la tabla de tipos con las cuatro categorias.
-// Rigidbody2D: Gravity Scale 0 y Freeze Rotation activado
 [RequireComponent(typeof(EnemyHealth), typeof(Rigidbody2D))]
 public class EnemyChaser : MonoBehaviour
 {
     private EnemyHealth health;
     private Rigidbody2D rb;
+    [SerializeField] private float speed;
 
     private void Awake()
     {
@@ -20,10 +20,10 @@ public class EnemyChaser : MonoBehaviour
         if (player == null || player.IsDead) return;
 
         Vector2 toPlayer = (Vector2)player.transform.position - rb.position;
-        rb.MovePosition(rb.position + toPlayer.normalized * health.Data.moveSpeed * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + toPlayer.normalized * speed * Time.fixedDeltaTime);
     }
 
-    // Contacto con el jugador: muerte instantanea
+    // Contacto con el jugador = muerte instantanea
     private void OnCollisionStay2D(Collision2D collision)
     {
         var player = collision.collider.GetComponentInParent<PlayerHealth>();

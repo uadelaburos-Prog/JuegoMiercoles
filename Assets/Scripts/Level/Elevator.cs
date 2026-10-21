@@ -10,6 +10,7 @@ public class Elevator : MonoBehaviour
         if (!collision.CompareTag("Player")) return;
         if (levelManager == null) return;
 
-        levelManager.LoadNext();
+        if(collision.CompareTag("Player"))
+            levelManager.LoadNext();
     }
 }
