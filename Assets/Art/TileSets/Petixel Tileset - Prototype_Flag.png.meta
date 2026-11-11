@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 2b3aa9dbceb50354bb639d93a314e4a5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5921120711250457319
+    second: Petixel Tileset - Prototype_Flag_0
+  - first:
+      213: -2632104303861826157
+    second: Petixel Tileset - Prototype_Flag_1
+  - first:
+      213: 5787190457550807714
+    second: Petixel Tileset - Prototype_Flag_2
+  - first:
+      213: -3621688095641663209
+    second: Petixel Tileset - Prototype_Flag_3
+  - first:
+      213: 7936240713894231137
+    second: Petixel Tileset - Prototype_Flag_4
+  - first:
+      213: -8256556772150171373
+    second: Petixel Tileset - Prototype_Flag_5
+  - first:
+      213: -7972162840363649576
+    second: Petixel Tileset - Prototype_Flag_6
+  - first:
+      213: -5293355952744198838
+    second: Petixel Tileset - Prototype_Flag_7
+  - first:
+      213: 5536103371030781911
+    second: Petixel Tileset - Prototype_Flag_8
+  - first:
+      213: -9001636561112302652
+    second: Petixel Tileset - Prototype_Flag_9
+  - first:
+      213: -8946724446967806374
+    second: Petixel Tileset - Prototype_Flag_10
+  - first:
+      213: 8055173499579292804
+    second: Petixel Tileset - Prototype_Flag_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Flag_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 95
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2ba4a5aeb0c2250800000000000000
+      internalID: 5921120711250457319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Flag_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 95
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39df984c413e87bd0800000000000000
+      internalID: -2632104303861826157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Flag_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 95
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2a8dd2f0b305050800000000000000
+      internalID: 5787190457550807714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Flag_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 63
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71984049ddd2dbdc0800000000000000
+      internalID: -3621688095641663209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Flag_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 63
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c78ab91e0332e60800000000000000
+      internalID: 7936240713894231137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Flag_5
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 63
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319a4206c51da6d80800000000000000
+      internalID: -8256556772150171373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Flag_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 31
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d53e8092203d5190800000000000000
+      internalID: -7972162840363649576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Flag_7
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 31
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d8bfe6ec83a86b0800000000000000
+      internalID: -5293355952744198838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Flag_8
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 31
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfd1263fa034dc40800000000000000
+      internalID: 5536103371030781911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Flag_9
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb7bb98d33c31380800000000000000
+      internalID: -9001636561112302652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Flag_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a564e2b6489d6d380800000000000000
+      internalID: -8946724446967806374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Flag_11
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c5096ae99b9cf60800000000000000
+      internalID: 8055173499579292804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Petixel Tileset - Prototype_Flag_0: 5921120711250457319
+      Petixel Tileset - Prototype_Flag_1: -2632104303861826157
+      Petixel Tileset - Prototype_Flag_10: -8946724446967806374
+      Petixel Tileset - Prototype_Flag_11: 8055173499579292804
+      Petixel Tileset - Prototype_Flag_2: 5787190457550807714
+      Petixel Tileset - Prototype_Flag_3: -3621688095641663209
+      Petixel Tileset - Prototype_Flag_4: 7936240713894231137
+      Petixel Tileset - Prototype_Flag_5: -8256556772150171373
+      Petixel Tileset - Prototype_Flag_6: -7972162840363649576
+      Petixel Tileset - Prototype_Flag_7: -5293355952744198838
+      Petixel Tileset - Prototype_Flag_8: 5536103371030781911
+      Petixel Tileset - Prototype_Flag_9: -9001636561112302652
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

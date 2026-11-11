@@ -1,0 +1,1469 @@
+fileFormatVersion: 2
+guid: 5a5e128731c17114ab9b4256c12894be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1297325140011431327
+    second: Petixel Tileset - Prototype_Characters_0
+  - first:
+      213: 4181464114201428738
+    second: Petixel Tileset - Prototype_Characters_1
+  - first:
+      213: -9186958140669829461
+    second: Petixel Tileset - Prototype_Characters_2
+  - first:
+      213: 5171276674406269079
+    second: Petixel Tileset - Prototype_Characters_3
+  - first:
+      213: 3803310292370554689
+    second: Petixel Tileset - Prototype_Characters_4
+  - first:
+      213: 7105034314137253344
+    second: Petixel Tileset - Prototype_Characters_5
+  - first:
+      213: -3256241399993840113
+    second: Petixel Tileset - Prototype_Characters_6
+  - first:
+      213: -216230201797897337
+    second: Petixel Tileset - Prototype_Characters_7
+  - first:
+      213: 5363626358214335538
+    second: Petixel Tileset - Prototype_Characters_8
+  - first:
+      213: -1103864711210690677
+    second: Petixel Tileset - Prototype_Characters_9
+  - first:
+      213: 4400365555700614887
+    second: Petixel Tileset - Prototype_Characters_10
+  - first:
+      213: -7411198412058040390
+    second: Petixel Tileset - Prototype_Characters_11
+  - first:
+      213: 4915519651267344023
+    second: Petixel Tileset - Prototype_Characters_12
+  - first:
+      213: -5814101241295258595
+    second: Petixel Tileset - Prototype_Characters_13
+  - first:
+      213: 953857077811096623
+    second: Petixel Tileset - Prototype_Characters_14
+  - first:
+      213: 4472093728679507300
+    second: Petixel Tileset - Prototype_Characters_15
+  - first:
+      213: 6907488459427071636
+    second: Petixel Tileset - Prototype_Characters_16
+  - first:
+      213: -8321897931069284616
+    second: Petixel Tileset - Prototype_Characters_17
+  - first:
+      213: 4476952822437320997
+    second: Petixel Tileset - Prototype_Characters_18
+  - first:
+      213: -1633348961971309263
+    second: Petixel Tileset - Prototype_Characters_19
+  - first:
+      213: 125244054584933900
+    second: Petixel Tileset - Prototype_Characters_20
+  - first:
+      213: -3600007640721414810
+    second: Petixel Tileset - Prototype_Characters_21
+  - first:
+      213: -8994319246554263967
+    second: Petixel Tileset - Prototype_Characters_22
+  - first:
+      213: 8867274188888772817
+    second: Petixel Tileset - Prototype_Characters_23
+  - first:
+      213: 2194524512721343967
+    second: Petixel Tileset - Prototype_Characters_24
+  - first:
+      213: -7482898921656254399
+    second: Petixel Tileset - Prototype_Characters_25
+  - first:
+      213: 8866264139009594134
+    second: Petixel Tileset - Prototype_Characters_26
+  - first:
+      213: -6439231587730631684
+    second: Petixel Tileset - Prototype_Characters_27
+  - first:
+      213: -2449294933155984702
+    second: Petixel Tileset - Prototype_Characters_28
+  - first:
+      213: -6200984642992417772
+    second: Petixel Tileset - Prototype_Characters_29
+  - first:
+      213: 1384239357673715029
+    second: Petixel Tileset - Prototype_Characters_30
+  - first:
+      213: -7447036691232645360
+    second: Petixel Tileset - Prototype_Characters_31
+  - first:
+      213: 3644823967995841664
+    second: Petixel Tileset - Prototype_Characters_32
+  - first:
+      213: -5730558352191047837
+    second: Petixel Tileset - Prototype_Characters_33
+  - first:
+      213: -2270350556954200681
+    second: Petixel Tileset - Prototype_Characters_34
+  - first:
+      213: -6591953928126185921
+    second: Petixel Tileset - Prototype_Characters_35
+  - first:
+      213: 875144016572928299
+    second: Petixel Tileset - Prototype_Characters_36
+  - first:
+      213: 2764045239849489402
+    second: Petixel Tileset - Prototype_Characters_37
+  - first:
+      213: -2771635118468556225
+    second: Petixel Tileset - Prototype_Characters_38
+  - first:
+      213: -9035545113654797950
+    second: Petixel Tileset - Prototype_Characters_39
+  - first:
+      213: 4335778657443410780
+    second: Petixel Tileset - Prototype_Characters_40
+  - first:
+      213: -7380521977058742924
+    second: Petixel Tileset - Prototype_Characters_41
+  - first:
+      213: 3395682449442483957
+    second: Petixel Tileset - Prototype_Characters_42
+  - first:
+      213: -7572291919958608757
+    second: Petixel Tileset - Prototype_Characters_43
+  - first:
+      213: -7528263762029662332
+    second: Petixel Tileset - Prototype_Characters_44
+  - first:
+      213: -8934587841069029951
+    second: Petixel Tileset - Prototype_Characters_45
+  - first:
+      213: 8657997572959990245
+    second: Petixel Tileset - Prototype_Characters_46
+  - first:
+      213: 4844670345313544727
+    second: Petixel Tileset - Prototype_Characters_47
+  - first:
+      213: 690242993120668374
+    second: Petixel Tileset - Prototype_Characters_48
+  - first:
+      213: -7264443149735899347
+    second: Petixel Tileset - Prototype_Characters_49
+  - first:
+      213: -3452146730670634540
+    second: Petixel Tileset - Prototype_Characters_50
+  - first:
+      213: 8018850122272375875
+    second: Petixel Tileset - Prototype_Characters_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 192
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a4f6f98a9fefde0800000000000000
+      internalID: -1297325140011431327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2030500257b870a30800000000000000
+      internalID: 4181464114201428738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 192
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baeddf2ee3e518080800000000000000
+      internalID: -9186958140669829461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 192
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790cf3d9cb014c740800000000000000
+      internalID: 5171276674406269079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 192
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f75536f8218c430800000000000000
+      internalID: 3803310292370554689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_5
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 192
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5bc1b80172a9260800000000000000
+      internalID: 7105034314137253344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 192
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e4272f2b18fc2d0800000000000000
+      internalID: -3256241399993840113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 192
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7831020f6cbcffcf0800000000000000
+      internalID: -216230201797897337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_8
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 192
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c994d41cd6f6a40800000000000000
+      internalID: 5363626358214335538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_9
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 192
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b879238c4e84ea0f0800000000000000
+      internalID: -1103864711210690677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_10
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 192
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e64665a82d311d30800000000000000
+      internalID: 4400365555700614887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_11
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 192
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab767597f42262990800000000000000
+      internalID: -7411198412058040390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_12
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 192
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796fd3c441f673440800000000000000
+      internalID: 4915519651267344023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c3078b9b9205fa0800000000000000
+      internalID: -5814101241295258595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c2c6165f7cc3d00800000000000000
+      internalID: 953857077811096623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465b1345d81101e30800000000000000
+      internalID: 4472093728679507300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496c24a08245cdf50800000000000000
+      internalID: 6907488459427071636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe9e894ceda28c80800000000000000
+      internalID: -8321897931069284616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5291f814fd4512e30800000000000000
+      internalID: 4476952822437320997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135727fd5cd2559e0800000000000000
+      internalID: -1633348961971309263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0eb3c7ddc4fcb100800000000000000
+      internalID: 125244054584933900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665ab1adf143a0ec0800000000000000
+      internalID: -3600007640721414810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e8ca89c42cd2380800000000000000
+      internalID: -8994319246554263967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d094bad4e2ee0b70800000000000000
+      internalID: 8867274188888772817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_24
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd594afca64847e10800000000000000
+      internalID: 2194524512721343967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 192
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140868ca317672890800000000000000
+      internalID: -7482898921656254399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 192
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613937a424c4b0b70800000000000000
+      internalID: 8866264139009594134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf357daccf043a6a0800000000000000
+      internalID: -6439231587730631684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 64
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cac2173c3b520ed0800000000000000
+      internalID: -2449294933155984702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_29
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 64
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414d8c8425da1f9a0800000000000000
+      internalID: -6200984642992417772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_30
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 64
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555b14e9c5ec53310800000000000000
+      internalID: 1384239357673715029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_31
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 64
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f17cdd59fc6a890800000000000000
+      internalID: -7447036691232645360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_32
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 64
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cc8397614059230800000000000000
+      internalID: 3644823967995841664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_33
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 64
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367310d5a87f870b0800000000000000
+      internalID: -5730558352191047837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_34
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 64
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795722182381e70e0800000000000000
+      internalID: -2270350556954200681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_35
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 64
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e3c4af3dca484a0800000000000000
+      internalID: -6591953928126185921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_36
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 64
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21532ba8d2252c00800000000000000
+      internalID: 875144016572928299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_37
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 64
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af39658408cdb5620800000000000000
+      internalID: 2764045239849489402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_38
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 64
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a1fa46b8c2989d0800000000000000
+      internalID: -2771635118468556225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289d69c679b4b9280800000000000000
+      internalID: -9035545113654797950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 33
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5372ad87b7cb2c30800000000000000
+      internalID: 4335778657443410780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 33
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d23749d5e139990800000000000000
+      internalID: -7380521977058742924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_42
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 33
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe2c095233ef1f20800000000000000
+      internalID: 3395682449442483957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 33
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b847e475e90d9e690800000000000000
+      internalID: -7572291919958608757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_44
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 33
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fa6c0befb368790800000000000000
+      internalID: -7528263762029662332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 33
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c56e8e22b7f10480800000000000000
+      internalID: -8934587841069029951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_46
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 33
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1797aabe2672870800000000000000
+      internalID: 8657997572959990245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_47
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 33
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a684ac20abb3340800000000000000
+      internalID: 4844670345313544727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_48
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 33
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dae8ad585c349900800000000000000
+      internalID: 690242993120668374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_49
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 33
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fc8f8a1738f2b90800000000000000
+      internalID: -7264443149735899347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_50
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 33
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9c9d5b6d28710d0800000000000000
+      internalID: -3452146730670634540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Petixel Tileset - Prototype_Characters_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344842553bda84f60800000000000000
+      internalID: 8018850122272375875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Petixel Tileset - Prototype_Characters_0: -1297325140011431327
+      Petixel Tileset - Prototype_Characters_1: 4181464114201428738
+      Petixel Tileset - Prototype_Characters_10: 4400365555700614887
+      Petixel Tileset - Prototype_Characters_11: -7411198412058040390
+      Petixel Tileset - Prototype_Characters_12: 4915519651267344023
+      Petixel Tileset - Prototype_Characters_13: -5814101241295258595
+      Petixel Tileset - Prototype_Characters_14: 953857077811096623
+      Petixel Tileset - Prototype_Characters_15: 4472093728679507300
+      Petixel Tileset - Prototype_Characters_16: 6907488459427071636
+      Petixel Tileset - Prototype_Characters_17: -8321897931069284616
+      Petixel Tileset - Prototype_Characters_18: 4476952822437320997
+      Petixel Tileset - Prototype_Characters_19: -1633348961971309263
+      Petixel Tileset - Prototype_Characters_2: -9186958140669829461
+      Petixel Tileset - Prototype_Characters_20: 125244054584933900
+      Petixel Tileset - Prototype_Characters_21: -3600007640721414810
+      Petixel Tileset - Prototype_Characters_22: -8994319246554263967
+      Petixel Tileset - Prototype_Characters_23: 8867274188888772817
+      Petixel Tileset - Prototype_Characters_24: 2194524512721343967
+      Petixel Tileset - Prototype_Characters_25: -7482898921656254399
+      Petixel Tileset - Prototype_Characters_26: 8866264139009594134
+      Petixel Tileset - Prototype_Characters_27: -6439231587730631684
+      Petixel Tileset - Prototype_Characters_28: -2449294933155984702
+      Petixel Tileset - Prototype_Characters_29: -6200984642992417772
+      Petixel Tileset - Prototype_Characters_3: 5171276674406269079
+      Petixel Tileset - Prototype_Characters_30: 1384239357673715029
+      Petixel Tileset - Prototype_Characters_31: -7447036691232645360
+      Petixel Tileset - Prototype_Characters_32: 3644823967995841664
+      Petixel Tileset - Prototype_Characters_33: -5730558352191047837
+      Petixel Tileset - Prototype_Characters_34: -2270350556954200681
+      Petixel Tileset - Prototype_Characters_35: -6591953928126185921
+      Petixel Tileset - Prototype_Characters_36: 875144016572928299
+      Petixel Tileset - Prototype_Characters_37: 2764045239849489402
+      Petixel Tileset - Prototype_Characters_38: -2771635118468556225
+      Petixel Tileset - Prototype_Characters_39: -9035545113654797950
+      Petixel Tileset - Prototype_Characters_4: 3803310292370554689
+      Petixel Tileset - Prototype_Characters_40: 4335778657443410780
+      Petixel Tileset - Prototype_Characters_41: -7380521977058742924
+      Petixel Tileset - Prototype_Characters_42: 3395682449442483957
+      Petixel Tileset - Prototype_Characters_43: -7572291919958608757
+      Petixel Tileset - Prototype_Characters_44: -7528263762029662332
+      Petixel Tileset - Prototype_Characters_45: -8934587841069029951
+      Petixel Tileset - Prototype_Characters_46: 8657997572959990245
+      Petixel Tileset - Prototype_Characters_47: 4844670345313544727
+      Petixel Tileset - Prototype_Characters_48: 690242993120668374
+      Petixel Tileset - Prototype_Characters_49: -7264443149735899347
+      Petixel Tileset - Prototype_Characters_5: 7105034314137253344
+      Petixel Tileset - Prototype_Characters_50: -3452146730670634540
+      Petixel Tileset - Prototype_Characters_51: 8018850122272375875
+      Petixel Tileset - Prototype_Characters_6: -3256241399993840113
+      Petixel Tileset - Prototype_Characters_7: -216230201797897337
+      Petixel Tileset - Prototype_Characters_8: 5363626358214335538
+      Petixel Tileset - Prototype_Characters_9: -1103864711210690677
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
