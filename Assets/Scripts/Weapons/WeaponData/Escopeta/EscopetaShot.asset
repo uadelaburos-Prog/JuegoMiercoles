@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: EscopetaShot
   m_EditorClassIdentifier: Assembly-CSharp::SpreadFire
   pellets: 5
-  spreadAngle: 30
+  spreadAngle: 45

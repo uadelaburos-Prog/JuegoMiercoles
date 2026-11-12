@@ -5,6 +5,7 @@ public class WeaponHolder : MonoBehaviour
 {
     [SerializeField] private List<WeaponData> loadout = new List<WeaponData>();
     [SerializeField] private Transform firePoint;
+    [SerializeField] private PlayerAmmoHUD ammoHUD;
 
     private int[] ammo;
     private float[] nextFireTime;
@@ -37,6 +38,11 @@ public class WeaponHolder : MonoBehaviour
         for (int i = 0; i < loadout.Count; i++) ammo[i] = loadout[i].maxAmmo;
     }
 
+    private void Start()
+    {
+        RefreshHUD();
+    }
+
     private void Update()
     {
         if (Time.timeScale == 0f || loadout.Count == 0) return;
@@ -47,12 +53,17 @@ public class WeaponHolder : MonoBehaviour
 
     private void HandleSwitch()
     {
+        int previous = current;
+
         for (int i = 0; i < loadout.Count && i < 9; i++)
             if (Input.GetKeyDown(KeyCode.Alpha1 + i)) current = i;
 
         float scroll = Input.mouseScrollDelta.y;
         if (scroll > 0f) current = (current + 1) % loadout.Count;
         else if (scroll < 0f) current = (current - 1 + loadout.Count) % loadout.Count;
+
+        if (current != previous)
+            RefreshHUD();
     }
 
     private Vector2 AimDirection()
@@ -73,5 +84,13 @@ public class WeaponHolder : MonoBehaviour
         w.fireBehaviour.Fire(w, firePoint.position, dir, gameObject);
 
         if (w.recoil > 0f && movement != null) movement.Nudge(-dir * w.recoil);
+
+        RefreshHUD();
+    }
+
+    private void RefreshHUD()
+    {
+        if (ammoHUD == null || loadout.Count == 0) return;
+        ammoHUD.UpdateAmmo(ammo[current], loadout[current].maxAmmo);
     }
 }

@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private Camera cam;
+    private PlayerDash playerDash;
     private Vector2 input;
     private Vector2 pendingNudge;
 
@@ -15,6 +16,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         cam = Camera.main;
+        playerDash = GetComponent<PlayerDash>();
     }
 
     private void Update()
@@ -32,6 +34,13 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        // Si está haciendo Dash, cedemos el control del movimiento a PlayerDash
+        if (playerDash != null && playerDash.IsDashing)
+        {
+            pendingNudge = Vector2.zero;
+            return;
+        }
+
         rb.MovePosition(rb.position + input * moveSpeed * Time.fixedDeltaTime + pendingNudge);
         pendingNudge = Vector2.zero;
     }

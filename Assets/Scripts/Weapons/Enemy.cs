@@ -19,6 +19,9 @@ public class Enemy : MonoBehaviour
         FullRadius      // Radio completo 360°
     }
 
+    [HideInInspector] public bool isMovementLocked = false;
+
+
     [Header("Identidad y Patrones")]
     [SerializeField] public string id;
     [SerializeField] private MovementPattern pattern = MovementPattern.PatrolPoints;
@@ -144,6 +147,9 @@ public class Enemy : MonoBehaviour
     {
         if (rb == null || pattern == MovementPattern.Static) return;
 
+        if (isMovementLocked) return;
+
+
         Vector2 pathDir = Vector2.zero;
         if (agent.hasPath && !(pattern == MovementPattern.SeekCover && inCover && !playerDetected))
         {
@@ -210,7 +216,7 @@ public class Enemy : MonoBehaviour
         float dist = toPlayer.magnitude;
 
         // Para el Escupidor usamos panicRadius si está buscando cobertura, sino viewRadius
-        float activeRadius = (pattern == MovementPattern.SeekCover) ? panicRadius : viewRadius;
+        float activeRadius = viewRadius;
         if (dist > activeRadius) return false;
 
         // Comprobar ángulo si es Cono de Visión
@@ -255,7 +261,25 @@ public class Enemy : MonoBehaviour
 
     private void UpdateCover()
     {
-        if (targetCover == null || inCover) return;
+        if (targetCover == null) return;
+
+        // Si ya está a cubierto, revisar si el jugador lo flanqueó o se acercó mucho
+        if (inCover && playerTrm != null)
+        {
+            float distToPlayer = Vector2.Distance(rb.position, playerTrm.position);
+
+            // Comprobar si tiene línea de visión directa (sin paredes) hacia el jugador
+            Vector2 toPlayer = ((Vector2)playerTrm.position - rb.position).normalized;
+            bool exposed = !Physics2D.Raycast(rb.position, toPlayer, distToPlayer, obstacleMask);
+
+            // Si estás muy cerca (dentro del panicRadius) y expuesto, busca otro punto
+            if (distToPlayer <= panicRadius && exposed)
+            {
+                FindAlternativeCover();
+                inCover = false;
+            }
+            return;
+        }
 
         agent.SetDestination(targetCover.position);
 
@@ -263,6 +287,35 @@ public class Enemy : MonoBehaviour
         {
             inCover = true;
             agent.ResetPath();
+        }
+    }
+
+    private void FindAlternativeCover()
+    {
+        if (coverPoints == null || coverPoints.Length <= 1) return;
+
+        Transform bestPoint = null;
+        float bestScore = -Mathf.Infinity;
+
+        foreach (Transform point in coverPoints)
+        {
+            if (point == null || point == targetCover) continue;
+
+            // Prioriza el punto que esté más lejos del jugador y cerca del enemigo
+            float distFromPlayer = Vector2.Distance(point.position, playerTrm.position);
+            float distFromSelf = Vector2.Distance(point.position, rb.position);
+            float score = distFromPlayer - (distFromSelf * 0.5f);
+
+            if (score > bestScore)
+            {
+                bestScore = score;
+                bestPoint = point;
+            }
+        }
+
+        if (bestPoint != null)
+        {
+            targetCover = bestPoint;
         }
     }
 

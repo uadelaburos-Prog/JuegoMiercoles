@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dbec9d5034f58344976cc33b1c0287f, type: 3}
   m_Name: Lanzallamas
   m_EditorClassIdentifier: Assembly-CSharp::WeaponData
-  displayName: Arma
+  displayName: Lanzallamas
   damageType: 4
   damage: 4
   speed: 3

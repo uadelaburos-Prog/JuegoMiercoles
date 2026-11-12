@@ -15,11 +15,11 @@ MonoBehaviour:
   displayName: Pistola
   damageType: 2
   damage: 4
-  speed: 3
-  range: 50
+  speed: 8
+  range: 15
   cooldown: 2
   maxAmmo: 6
-  recoil: 0
+  recoil: 1
   fireBehaviour: {fileID: 11400000, guid: 1352f0858cf9b664eabefe3427b0778b, type: 2}
   projectilePrefab: {fileID: 813227615125574067, guid: 482392953ad22d84b95d8b841647b227, type: 3}
   color: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 1}

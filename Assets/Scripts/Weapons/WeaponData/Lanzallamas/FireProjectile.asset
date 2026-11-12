@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32b595f0e531b5469f51975a3a5851b, type: 3}
   m_Name: FireProjectile
   m_EditorClassIdentifier: Assembly-CSharp::CloudFire
-  radius: 0.8
+  puffCount: 7
+  spreadAngle: 45
+  speedVariance: 0.5
+  startRadius: 0.35
+  endRadius: 1.1
   lingerTime: 2
   tickInterval: 0.25
