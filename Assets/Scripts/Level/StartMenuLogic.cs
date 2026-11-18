@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEditor;
 using UnityEngine.SceneManagement;
 
 public class StartMenuLogic : MonoBehaviour
@@ -12,6 +11,6 @@ public class StartMenuLogic : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
-        EditorApplication.isPlaying = false;
+        //EditorApplication.isPlaying = false;
     }
 }

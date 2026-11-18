@@ -1,6 +1,4 @@
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEditor;
 
 public class PauseLogic : MonoBehaviour
 {
@@ -46,6 +44,6 @@ public class PauseLogic : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
-        EditorApplication.isPlaying = false;
+        //EditorApplication.isPlaying = false;
     }
 }

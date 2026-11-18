@@ -336,6 +336,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    [System.Obsolete]
     private Vector2 CalculateSeparation()
     {
         Vector2 separation = Vector2.zero;
