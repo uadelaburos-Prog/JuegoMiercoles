@@ -16892,6 +16892,52 @@ MonoBehaviour:
   m_Area: 0
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
+--- !u!1 &387414006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 387414009}
+  - component: {fileID: 387414008}
+  m_Layer: 0
+  m_Name: MouseImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &387414008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387414006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2498e638cb5dd7b4394ebfd4959fc2fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MouseImageScript
+  customCursor: {fileID: 2800000, guid: 2380bf064297ab744bec53f3530f4c1e, type: 3}
+  hotspot: {x: 0, y: 0}
+--- !u!4 &387414009
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387414006}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.14417, y: 3.27628, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &515711015
 GameObject:
   m_ObjectHideFlags: 0
@@ -17588,7 +17634,7 @@ MonoBehaviour:
   nextSceneName: 
   defeatText: {fileID: 1624928262}
   retryDelay: 2
-  elevator: {fileID: 0}
+  elevator: {fileID: 70853370}
 --- !u!4 &876915186
 Transform:
   m_ObjectHideFlags: 0
@@ -18086,7 +18132,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
+  m_VertexColorAlwaysGammaSpace: 1
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -28206,3 +28252,4 @@ SceneRoots:
   - {fileID: 884881416}
   - {fileID: 106466679}
   - {fileID: 70853374}
+  - {fileID: 387414009}
